@@ -7,7 +7,7 @@
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
 }
 
 .wrapper {
@@ -18,3 +18,82 @@ body {
 }
 
 /* Write all remaining styles here */
+
+footer p {
+	text-align: right;
+	font-size: 0.75em;
+}
+/*h1 a {
+	color: rgb(156,173,167);
+	text-decoration: none;
+}*/
+
+h1 a {
+	text-decoration: none;
+	color: rgb(156,173,167)
+}
+
+#logo h1 {
+	font-size: 5.25em;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	color: rgb(156,173,167)
+}
+
+#featured {
+	border: 5px solid rgb(153,173,166);
+}
+
+#about p {
+	font-family: serif;
+	font-weight: 100;
+}
+
+h2 {
+	font-size: 2em;
+	color: rgb(111,127,122);
+}
+/* ////////// MEDIA //////// */
+
+img {
+	max-width: 100%;
+}
+
+#press img {
+	border: 5px #ccc solid;
+}
+
+hr {
+	color: rgb(153,173,166);
+	margin-top: 5px;
+	margin-bottom: 5px;
+	font-weight: lighter;
+}
+
+[class*="col-"] {
+  margin-left: 2%;
+}
+
+.col-1 {
+	float: left;
+	width: 23.5%
+}
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  height: 0;
+  line-height: 0;
+}
+
+.first {
+	margin-left: 0;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
